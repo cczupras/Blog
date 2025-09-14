@@ -1,0 +1,17 @@
+Hello, yes, it was definitely a crazy week. Entitlements, permissions, AppSource, that really made my head spin a bit. And yes, I think I understand it now. We did some things right, some things wrong, and we have now redesigned a bit regarding that for our app in AppSource.
+
+But it is quite amazing. Thanks to Stefan Maroun, who made another video about how to monetize Business Central apps in his coding stream, where he goes into all sorts of things. He also mentioned that you can set a security group as an entitlement. And then you don't need to purchase a license for those users who are in the security group.
+
+Since I now also have the opportunity to administer our Azure and our M365, I naturally tried it out right away and uploaded a new version to the App Store with this security group. I also saw that you can test it in a sandbox environment, a dev environment, because the entitlements apply there as well. So, entitlements are simply the base layer where you say, these objects you can use, similar to the old Business Central license, where you had to license these objects. If the objects are not included in the license, you are not allowed to access them.
+
+This is now similar with the entitlements. If the object is not included in the entitlements, then it cannot be used at that point. So, this is the base layer. This means that if the entitlement allows the object, the entitlement also relies on permissions.
+
+This means that if the objects are included in this permissions set, then the user who possesses this entitlement, or the license, can also access it. What adds to this is that in the permission sets, you can specify individual permissions, such as read, write (modify), insert, and delete. This is also taken into account by the entitlement. This means that if you grant a table read access in the entitlement and the user acquires this entitlement through the license they purchase in the AppSource, they can only read that table.
+
+No matter what permission set I add on top, the entitlement states that the user is only allowed to read. This means that you always have to include users in the entitlement who can also write and modify, so that it works accordingly. I'm still not entirely clear on this when it comes to indirect permissions. This means that if data is written through a code unit or if data is used from a page, it also needs to work.
+
+We are still on a small learning curve to figure this out. It's not always so easy, because we initially thought that everything had to be pushed in the AppSource, but I have now seen that the entitlement license also works when you have the sandbox in the tenant. That can also be done. We have also set it up so that we have a non-public license that matches with an entitlement, so that we can acquire a license for shared tenants, meaning our demo tenants, which is of course free for us.
+
+We cannot buy our own licenses. That you can also use it to test check. And of course, the entitlements have the same permission sets that we also give to the full licenses, so to the users and so on. This means you can test it one-to-one to see if it works with the permissions as well.
+
+Since I have made some changes in the app, I have an error in the AppSource publication. I need to take another look at how to obtain those error measurements. In other words, I need access to the telemetry of our AppSource. I will report back to you next week and keep you updated on the results.

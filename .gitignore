@@ -1,0 +1,24 @@
+# Binary files
+Microsoft*.app
+*akquinet*.app
+
+# output documents
+*.pdf
+
+# zip files
+*.zip
+*.7z
+
+# Temp files
+.vs/
+.alcache/
+.altemplates/
+
+# Project Settings
+rad.json
+launch.json
+
+# Others
+~$*
+*~
+*.g.xlf

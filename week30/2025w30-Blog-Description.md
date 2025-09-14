@@ -1,0 +1,1 @@
+Read in this blog about the challenges of reworking a Document Management System app when new requirements for handling attachments force breaking interface contracts, and how breaking down complex AI tasks into smaller chunks can lead to reusable solutions for everyday problems. Enjoy reading and feel free to leave feedback to connect.
