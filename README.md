@@ -4,7 +4,9 @@ Welcome to my personal blog repository! This is where I document my weekly thoug
 
 ## 🎯 About This Blog
 
-This repository serves as a digital journal where I share my experiences as a software developer, my exploration of AI and Large Language Models (LLMs), and my personal development journey. Each week brings new insights, challenges, and discoveries that I document here.
+This repository serves as a digital journal where I share my experiences as a software developer, my exploration of AI and Large Language Models (LLMs), and my personal development journey. Each week brings new insights, challenges, and discoveries that I document here
+
+You can find the published blog here: https://cczupras.notion.site/
 
 ### Core Themes
 
